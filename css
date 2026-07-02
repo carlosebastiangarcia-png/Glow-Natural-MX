@@ -1,0 +1,90 @@
+/* Centra el contenido de la sección */
+.seccion-nosotros {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.seccion-nosotros h2 {
+    color: #801935;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+/* Caja contenedora para centrar y dar tamaño al video */
+.video-unico-centrado {
+    max-width: 800px;          /* Controla qué tan GRANDE quieres el video */
+    width: 100%;
+    margin: 0 auto;            /* Lo pone perfectamente EN MEDIO */
+    aspect-ratio: 16 / 9;      /* Mantiene la proporción perfecta de YouTube sin barras negras */
+    border-radius: 12px;       /* Esquinas redondeadas suaves */
+    overflow: hidden;          /* Aplica el redondeado al video */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); /* Sombra elegante */
+}
+
+/* Hace que el reproductor ocupe todo el espacio de la caja */
+.video-unico-centrado iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+
+.boton-catalogo {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d4a373; /* Cambia este color por el de tu diseño */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.boton-catalogo:hover {
+    background-color: #b7875b; /* Color al pasar el cursor */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
