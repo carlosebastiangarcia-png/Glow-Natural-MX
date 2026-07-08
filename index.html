@@ -90,7 +90,7 @@
                     <span>Total:</span>
                     <span id="cart-total">$0.00</span>
                 </div>
-                <button class="btn-primary btn-full" onclick="proceedToCheckout()">Proceder al pago</button>
+                <butto class="btn-rojo">Proceder al pago</butto"n>
                 <button class="btn-secondary btn-full" onclick="toggleCart()">Seguir comprando</button>
                 <a class="btn-secondary btn-full" href="https://wa.me/524439331744" target="_blank" rel="noopener">Contáctanos para seguir tu pedido con exito manda captura de tu pedido esta sitio web esta en mantenimento: +52 443 933 1744</a>
             </div>
@@ -150,7 +150,12 @@
                         </div>
 
                         <button class="btn-primary btn-full" style="margin-top: 1.5rem;" id="btn-agregar-modal" onclick="agregarAlCarritoDesdeModal()">
-                           <label> Agregar al carrito - <span id="precio-total-modal">24.99</span></label>
+                        <!-- En tu index.html -->
+                        <button class="btn-rojo" id="btn-agregar-modal" onclick="agregarAlCarritoDesdeModal()">
+                         Agregar al carrito - <span id="precio-total-modal">24.99</span>
+                        </button>
+                           
+                               
                         </button>
                     </div>
                 </div>
@@ -259,15 +264,7 @@
         <section id="info-section" class="info-section" style="padding: 3rem 0; background: #f9f2f7;">
             <div class="container">
                 <div style="max-width: 780px; margin: 0 auto; text-align: center;">
-                    <h2><p>¿Quien somos?</p>
-                    </div></h2>
-                    <div style="margin: 1.5rem auto; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center;">
-                        <h2><p>¿Quien somos?</p>
-                        <img src="contentImage.jpg" alt="imagen principal" width="300" height="300" style="border-radius: 50%; object-fit: cover;">
-                    </div>
-                    <p style="margin: 1rem auto 1.5rem; color: #444; line-height: 1.8;">Coloca aquí detalles sobre el mantenimiento de la página, opciones de contacto, envíos, promociones o cualquier mensaje adicional que quieras compartir con tus clientes.</p>
-                    <p style="margin: 0.5rem auto; color: #444;">Puedes editar este texto directamente en el archivo <strong>index.html</strong> para personalizarlo como quieras.</p>
-                    <div style="margin: 2rem auto; max-width: 560px;">
+                   
                         <a href="https://ferja.mx" target="_blank" rel="noopener" class="btn-primary btn-full" style="max-width: 260px; margin-top: 1rem; text-align: center;">Ver más detalles en mi sitio</a>
                     </div>
                 </div>
